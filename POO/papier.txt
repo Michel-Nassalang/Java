@@ -1,0 +1,16 @@
+		DefaultListModel<JButton> model1 = new DefaultListModel<>();
+		DefaultListModel<JButton> model2 = new DefaultListModel<>();
+		DefaultListModel<JButton> model3 = new DefaultListModel<>();
+		DefaultListModel<JButton> model4 = new DefaultListModel<>();
+		model1.addElement(b0);
+		model1.addElement(b1);
+		model1.addElement(b2);
+		model1.addElement(b3);
+		JList<JButton> list1 = new JList<>(model1);
+		list1.setBounds(50,50,450,450);
+		list1.add(b0);
+		list1.add(b1);
+		list1.add(b2);
+		list1.add(b3);
+		panel.add(area);
+		panel.add(list1);
